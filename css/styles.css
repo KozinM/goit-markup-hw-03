@@ -1,0 +1,180 @@
+:root {
+  --text-color: #212121;
+  --active-color: #2196f3;
+  --button-background: #f5f4fa;
+  --button-txt: #fff;
+  --dark-background: #2f303a;
+  --ordinary-text: #757575;
+}
+body {
+  color: var(--text-color);
+  font-family: "Roboto", sans-serif;
+}
+
+/* title, text, background and other */
+.we-do.title,.team.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.team.card.title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.team.card.text {
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: none;
+  color: var(--ordinary-text);
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.strength.card.text {
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--ordinary-text);
+}
+
+.tile-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--text-color);
+}
+.works.card.text {
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+  color: var(--ordinary-text);
+}
+
+.card {
+  list-style-type: none;
+}
+
+.bttm,
+.hero {
+  background-color: var(--dark-background);
+  color: var(--button-txt);
+}
+.strength.card.title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+
+.hero-title,
+.strength.card.title {
+  text-transform: uppercase;
+}
+
+/*all that connected to links*/
+.header.contacts.card > .link {
+  color: var(--ordinary-text);
+}
+.footer.contacts.card > .link:hover,
+.header.contacts.card > .link:hover,
+.link:hover,
+.link:focus,
+.link.current {
+  color: var(--active-color);
+}
+.footer.contacts.card > .link {
+  color: rgba(255, 255, 255, 0.6);
+}
+.link {
+  color: var(--text-color);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.logo-link {
+  text-decoration: none;
+}
+
+/* all about logo*/
+.logo,
+.header-logo,
+.footer-logo {
+  font-family: "Ralway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+.logo {
+  color: var(--active-color);
+}
+.header-logo {
+  color: var(--text-color);
+}
+.footer-logo {
+  color: var(--button-txt);
+}
+
+/* all about header and footer */
+.header .card.footer .card {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.footer .card {
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+.footer-adress {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--button-txt);
+}
+
+/* all about buttons */
+.btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+  background-color: var(--button-background);
+  border: 0px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.btn:hover,
+.btn:focus,
+.hero > .btn {
+  background-color: var(--active-color);
+  color: var(--button-txt);
+}
+.hero > .btn {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--button-txt);
+}
