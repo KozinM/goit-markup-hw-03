@@ -230,7 +230,7 @@ img {
   display: flex;
   align-items: center;
 }
-.logo.link {
+.logo.link.header {
   padding-top: 24px;
   padding-bottom: 24px;
   margin-right: 93px;
@@ -281,7 +281,7 @@ img {
   margin-right: 30px;
 }
 .strength.card:last-child {
-  padding-right: 0;
+  margin-right: 0;
 }
 .strength.card.title {
   display: block;
@@ -324,18 +324,29 @@ img {
 .team.card:last-child {
   margin-right: 0;
 }
-.team.card.img {
-  margin-bottom: 30px;
+.team-card-content{
+  margin-top:30px;
+  margin-bottom:30px;
 }
+/* .team.card.img {
+  margin-bottom: 30px;
+} */
 .team.card.title {
   margin-bottom: 10px;
 }
-.team.card.text {
+/* .team.card.text {
   margin-bottom: 30px;
-}
+} */
 .bttm {
   padding-top: 60px;
   padding-bottom: 60px;
+}
+.logo.link.footer{
+  display: block;
+  margin-bottom:20px;
+}
+.footer-adress{
+  margin-bottom:9px;
 }
 .footer.contacts.card {
   display: block;
@@ -343,7 +354,7 @@ img {
 }
 
 .footer.contacts.card:last-child {
-  margin-botton: 0;
+  margin-bottom: 0;
 }
 
 /* styles for portfolio.html */
